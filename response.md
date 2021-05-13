@@ -19,4 +19,4 @@ Disable defender and real time protections
 ## Now Respond As if you weren't the one who did it!
 1. Turn off wireshark capture and save the pcap.
 2. Inspect process explorer activity.
-3. Use the [windows_fundamentals.md}(windows fundamentals) resource to look for various indicators of activity.
+3. Use the [Windows Fundamentals](windows_fundamentals.md) resource to look for various indicators of activity.
