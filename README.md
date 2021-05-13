@@ -2,3 +2,8 @@
 
 
 [Creation](know_thy_enemy.md)
+
+[Detection](detection.md)
+
+
+[Response](response.md)
