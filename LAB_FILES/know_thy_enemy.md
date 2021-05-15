@@ -1,11 +1,15 @@
 # Creation
 
-## Download and open the source code.
+## Download and open the source code. (Sample Golang Ransomware - Not Ironcat)
 
-1. Open a terminal on the LinuxDesktop device and run the following command:
-`sudo git https://github.com/arosenmund/rsac21-ransom.git`
+1. Open Linux-Attack-Host in the guacamole console and run the following command:
+
+`sudo git https://github.com/target111/go-crypt.git`
+
 2. Change directories into the downloaded folder.
-`cd ./rsac21-ransome`
+
+`cd ./`
+
 3. Open *sample-ransom-code.go* with vscode
 `code ./sample-ransom-code`
 
