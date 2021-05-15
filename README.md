@@ -1,9 +1,9 @@
 # rsac21-ransom
 
 
-[Creation](know_thy_enemy.md)
+[Creation](LAB_FILES\know_thy_enemy.md)
 
-[Detection](detection.md)
+[Detection](LAB_FILES\detection.md)
 
 
-[Response](response.md)
+[Response](LAB_FILES\response.md)
