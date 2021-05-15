@@ -3,7 +3,7 @@
 
 [Creation](LAB_FILES/know_thy_enemy.md)
 
-[Detection](LAB_FILES\detection.md)
+[Detection](LAB_FILES/detection.md)
 
 
-[Response](LAB_FILES\response.md)
+[Response](LAB_FILES/response.md)
