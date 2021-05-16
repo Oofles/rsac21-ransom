@@ -1,5 +1,13 @@
 # Detection
 
+Open the windows system.
+
+curl http://172.31.24.###:8000/test1.exe -o test1.exe
+
+Open firefox browse to virustotal and upload
+
+
+
 ## compile the code
 
 1. In vscode's terminal
