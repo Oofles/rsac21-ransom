@@ -1,11 +1,16 @@
 # Response
 
 ## Get ready! 
+1. Open wireshark and begin capturing to a c:\ location.
+2. Open Procmon
+
+## Launch!
+
+
 Open process explorer
 Open wireshark and start capturing
 Disable defender and real time protections
 
-## Login to the Windows Victim Box and Detonate Ransomware
 
 1. Open Internet explorer
 3. Browse to the ip where you are hosting the malware from the creation device.
