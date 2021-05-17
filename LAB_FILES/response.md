@@ -42,10 +42,24 @@ Use this information to find other effected files on the system. For this lab ju
 This can be used as a detection across multiple devices to find te total impact of the incendent. Log multiple machines by time stampe and you can build the attackers path.
 Remote example.
 
+## Orientate
+
+1. Okay, there is note. Don't click it yet!
+2. Some links don't work. You go to open windows explorer or search for an app and it the links fail.
+3. If you can't use windows+r or are not comfortable....the recycle bin is a good option to open up a file explorer.
+4. If 
+
 ## Analyze the packet capture. And track down that pesky activity.
 Netstat to find activity.
 Now track that to the pid.
 Now track the pid to the process information and find the file reponsible. Look at the time stampe. Maybe other files were modified here too?
+
+## Track Network Actions
+
+
+## Files
+
+In an adminisrative commandline 
 
 ## Log analysis
 Event view shows all logs cleared.  So you can't get the command line activity from here.
