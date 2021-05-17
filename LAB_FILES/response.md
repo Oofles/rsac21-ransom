@@ -1,29 +1,33 @@
 # Response
 
 ## Get ready! 
-1. Open wireshark and begin capturing to a c:\ location.
-2. Open Procmon
+1. We don't want to run the fun for anyone else just yet. In the bottom left search bar type "windows security" and open the Windows Security App.
+2. Click on Virus & threat protection.
+3. Under Virust & threat protection settings click Manage settings.
+4. Ensure that Automatic sample submission is turned off!
+5. Also, turn off Cloud-delevered protection.
+6. Close the windows defender settings, leaving real-time protection on.
+7. Open wireshark by typing wireshark in the bottom left search bar and click the wireshark app, and begin capturing on the 'ethernet' interface.
+8. Open an administrative command prompt and type "procmon" to open procmon, and accept the EULA.
+9. You are ready!
 
 ## Launch!
 
+The point here is to fast forward you to after the user clicked the wrong link, and then enaabled macros, and then thought it was totally normal when the doc was nonsense and office errored out and closed,...AND didn't tell you they used their admin account to local login everyday.  
 
-Open process explorer
-Open wireshark and start capturing
-Disable defender and real time protections
-
-
-1. Open Internet explorer
-3. Browse to the ip where you are hosting the malware from the creation device.
-4. Click the file to download it.
-5. Open and administrative command prompt
-6. Change directories to the files location
-7. Run ironcatrsa.exe
-`ironcatrsae.exe encrypt <custom password>
-8. Watch it run.
+1. Open the 'rsac-rasom' folder ond the windows desktop and browse into the "LAB_FILES" folder.
+2. Inside this folder is a zip folder called "iai-rsac21", right click the extract the contents.
+3. Open the extracted folder. Right click and copy the iai-rsac21.exe file.
+4. Paste this file in the c:\ root directory.
+5. Open an administrative command prompt (type cmd in the search bar and click the command prompt app)
+6. Change directory the C:\ `cd c:\`
+7. Run the malware! `iai-rsac21.exe`
+9. Gotcha! No commandline arguments, no execution. Try again. `iai-rsac21.exe encrypt <password>`
+10. Watch the exectution. 
+11. Once it is complete stop the wireshark capture and stop the procmon capture.
 
 ## Now Respond As if you weren't the one who did it!
-1. Turn off wireshark capture and save the pcap.
-2. Inspect process explorer activity.
+1.
 3. Use the [Windows Fundamentals](windows_fundamentals.md) resource to look for various indicators of activity.
 
 ## Files, Files,Files
