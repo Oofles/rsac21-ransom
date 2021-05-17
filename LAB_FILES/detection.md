@@ -22,19 +22,17 @@
 ## What does virust total have to say about all this?
 
 1. Open firefox and browse to virus total.  www.virustotal.com
-2. 
+2. Click the **choose a file** optiont to upload for analysis.
+3. Browse to C:\Users\Administrator and select test1.exe.
+4. Wait for the analysis. It will look something like this, but may have changed with all of the concurent uploads of a similar file.
+> Remember this is was the file that you saved as is and compiled in the amd64 architecture. Having just 3 detections for what will effectively encrypt files in your homedrive and attempt to connect to a server, while dropping a key and ransom note is pretty scray in itself.
+5. Now Click the upload button in the top left beside the search bar and upload the second sample test2.exe
+> This was the sample you simply replaced all occurances of the word encrypt with another word. This now comes back with only 2 detections. Putting on show case that changing common words and text associated with malware inside binaries will trick a number of detections in iteslef. Not to mention this changes zero function of the binary while completely changing the hash.
+6. Finally, upload the 32bit version of this sample. Same sample as before, but compliled for the more commonly execuable 32bit architecture.
+> By nature of the architecture you will see many more detections now, many of the static and behavioral analysis tools are tuned toward 32bit binaires and instructions.
+7. All that's great but now upload the final sample where you added the argument requirement for it to run. Test232-args.exe.
+> You will notice nearly all the detections go away now, even in the 32bit architecture. All of that work spent on creating different types of anti analysis techiniques and simply adding an argument requirement will fool nearly every auto analysis capability out there, making the detection solely reliant on strings.
 
-curl http://172.31.24.###:8000/test1.exe -o test1.exe
+Let's return to talk about what just happened and get ready to move on to live reponse.
 
-Open firefox browse to virustotal and upload
-
-
-
-## compile the code
-
-1. In vscode's terminal
-2. Run this command to compile into an executable binary.
-3. upload sample to virus total.
-4. upload to any.run
-5. upload anywhere else you like and analyze detections or lack there of
 
