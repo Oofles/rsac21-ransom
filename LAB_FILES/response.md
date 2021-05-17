@@ -47,28 +47,44 @@ Remote example.
 1. Okay, there is note. Don't click it yet!
 2. Some links don't work. You go to open windows explorer or search for an app and it the links fail.
 3. If you can't use windows+r or are not comfortable....the recycle bin is a good option to open up a file explorer.
-4. If 
+4. From here you can browse to C:\Windows\System32\cmd.exe and open the command line or other tools as you normally would.
+5. 
+## Log analysis, All my friends...
+Event view shows all logs cleared.  So you can't get the command line activity from here.
 
 ## Analyze the packet capture. And track down that pesky activity.
+
+1. Save the packet capture to the c:\.
+2. Open the packet capture and type 'http' in the display filter.
+3. Notice the DNS request right before the HTTP request?
+4. Right click on one of the http packets going to 34.x.x.x and choose follow>http
+5. What do you see? What is the base64 info? In your devices browser go to cyberchef.io.
+6. 
+
 Netstat to find activity.
 Now track that to the pid.
 Now track the pid to the process information and find the file reponsible. Look at the time stampe. Maybe other files were modified here too?
 
 ## Track Network Actions
+By now you have probably noticed scorched earth protocol running.
+1. Let's track that down.
+2. In the administrative command prompt run `netstat -anob | findstr ESTABLISHED`
+3. Find the PID of the network activity going to 35.x.x.x and run `tasklist /FI "PID EQ <instert pid>"
+4. looks like another executable is running now.
 
 
 ## Files
 
 In an adminisrative commandline 
 
-## Log analysis
+
+## Log analysis, All my friends...
 Event view shows all logs cleared.  So you can't get the command line activity from here.
 
 Now look at terminal services. Find your connecting IP address still there.
 
 Next open notpad.exe. 
 
-## Find Actor Activity.
 
 Analyze packet capture. 
 See any base 64?  What was that? 
