@@ -2,9 +2,10 @@
 
 ## Host the "evil" files.
 
-1. First record your IP address on the eth0 interface. `ip addr`
-2. Now change directory into the notransomware directory.
-3. Run the following command to serve the files for download.
+1. Make sure you are connected to the NIX-ATTACK-HOST-#
+2. First record your IP address on the eth0 interface. `ip addr`
+3. Now change directory into the notransomware directory.
+4. Run the following command to serve the files for download.
 `python3 -m httpserver`
 
 ## Update Lab Files
