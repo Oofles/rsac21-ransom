@@ -45,7 +45,7 @@ sudo git pull
 7. Cursor down to line 189 beginning with `text := "`. Press end. Delte the characters `+ id` from the end of the string.
 8. Press ctrl+x to save, and enter to save as main.go.
 9. Ensure you are in the same directory as the main.go file. `cd notransomware`
-10. Build! `env GOOS=windows GOARCH=386 go build main.go`
+10. Build! `env GOOS=windows GOARCH=amd64 go build main.go`
 11. Rename this version for your first test. `sudo mv main.exe test1.exe`
 
 ## Now let's get a little tricky by changing some of the words!
@@ -58,9 +58,9 @@ sudo git pull
 7. Now cursor down to line 153 that should contain the function "rsa.randomOAEP".
 8. Change this to "rsa.EncryptOAEP" and nothing else on the line. It is case sensitive.
 9. Use ctrl+x, then y, and enter, to save.
-10. Again build running `sudo env GOOS=windows GOARCH=386 go build main.go` (Capitilization matters!)
+10. Again build running `sudo env GOOS=windows GOARCH=amd64 go build main.go` (Capitilization matters!)
 11. Rename the executable. `sudo mv main.exe test264.exe`
-12. Make a second version of this one for 32 bit systems by running `env GOOS=windows GOARCH=386 build main.go`
+12. Make a second version of this one for 32 bit systems by running `env GOOS=windows GOARCH=386 build main.go` (Pay attention to the architecture change this will matter for detections.)
 13. Rename the executable. `sudo mv main.exe test232.exe`
 
 ### Now you are just being mean
