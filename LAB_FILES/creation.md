@@ -45,7 +45,7 @@ sudo git pull
 7. Cursor down to line 189 beginning with "text :=". Press end. Delte the characters "+ id" from the end of the string.
 8. Press ctrl+x to save, and enter to save as main.go.
 9. Ensure you are in the same directory as the main.go file. `cd notransomware`
-10. Build! `env GOOS=windows GOARCH=386 build main.go`
+10. Build! `env GOOS=windows GOARCH=386 go build main.go`
 11. Rename this version for your first test. `cp main.exe test1.exe`
 
 ## Now let's get a little tricky by changing some of the words!
