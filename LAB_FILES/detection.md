@@ -26,7 +26,7 @@
 5. Once you have this worked out, download all the files you created on the linux attack host just changing the file names.
   - test1.exe
   - test264.exe
-  - test332.exe
+  - test232.exe
   - test332-arg.exe
 7. This is your first detection example...no alerts from windows defender.
 
