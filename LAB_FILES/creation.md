@@ -28,7 +28,7 @@ sudo git pull
 
 3. Copy the test file from the go-crypt folder.
 
-`cp go-crypt/crypter/encrypt.go notransomware/main.go`
+`sudo cp go-crypt/crypter/encrypt.go notransomware/main.go`
 
 ## Modify code for evasion
 
