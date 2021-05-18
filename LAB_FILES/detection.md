@@ -7,9 +7,15 @@
 3. Run the following command to serve the files for download.
 `python3 -m httpserver`
 
+## Update Lab Files
+1. Open a administrative command prompt by clicking the search icon (magnifying glass) in the bottom left.
+2. Type cmd and click on the command prompt desktop app icon when it appears.
+3. Change directories to the lab files on the desktop. `cd c:\Users\Administrator\Desktop\rsac21-ransom`
+4. Update the files from the git repo.  `git pull`
+
 ## Download the "evil" files.
 
-1. Switch to the "WIN-VICTIM-HOST-#" by pressing ctrl+shift+alt.
+1. Switch to the "WIN-VICTIM-HOST-#" by pressing **ctrl+shift+alt**.
 2. Do some pre-flight checks, you can access all the required programs by clicking the search bar in the bottom left and typing their respective names. When they appear in the start menu results, double click them.
 - Is a folder on the desktop called? (If not, launch a command prompt and run `git clone `)
 - Is firefox installed? (If not, launch a command prompt and run `choco install firefox`)
