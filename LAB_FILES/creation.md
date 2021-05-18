@@ -42,7 +42,7 @@ sudo git pull
 
 5. Delete line 158 starting with 'id' through 162 ending with "{".
 6. Delete line 164 ""id": {id},"
-7. Cursor down to line 189. Press end. Delte the characters "+ id" from the end of the string.
+7. Cursor down to line 189 beginning with "text :=". Press end. Delte the characters "+ id" from the end of the string.
 8. Press ctrl+x to save, and enter to save as main.go.
 9. Ensure you are in the same directory as the main.go file. `cd notransomware`
 10. Build! `env GOOS=windows GOARCH=386 build main.go`
@@ -58,7 +58,7 @@ sudo git pull
 7. Now cursor down to line 153 that should contain the function "rsa.randomOAEP".
 8. Change this to "rsa.EncryptOAEP" and nothing else on the line. It is case sensitive.
 9. Use ctrl+x to save.
-10. Again build running `env GOOS=windows GOARCH=386 build main.go`
+10. Again build running `env GOOS=windows GOARCH=386 go build main.go`
 11. Rename the executable. `mv main.exe test264.exe`
 12. Make a second version of this one for 32 bit systems by running `env GOOS=windows GOARCH=386 build main.go`
 13. Rename the executable. `mv main.exe test232.exe`
