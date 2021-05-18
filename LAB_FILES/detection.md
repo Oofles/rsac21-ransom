@@ -34,7 +34,7 @@
 
 1. Open firefox and browse to virus total.  www.virustotal.com
 2. Click the **choose a file** optiont to upload for analysis.
-3. Browse to C:\Users\Administrator and select test1.exe.
+3. Browse to C:\Users\Administrator\Desktop\rsac-ransom and select test1.exe.
 4. Wait for the analysis. It will look something like this, but may have changed with all of the concurent uploads of a similar file.
 > Remember this is was the file that you saved as is and compiled in the amd64 architecture. Having just 3 detections for what will effectively encrypt files in your homedrive and attempt to connect to a server, while dropping a key and ransom note is pretty scray in itself.
 5. Now Click the upload button in the top left beside the search bar and upload the second sample test2.exe
