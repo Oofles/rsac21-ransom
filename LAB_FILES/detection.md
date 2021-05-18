@@ -6,7 +6,7 @@
 2. First record your IP address on the eth0 interface. `ip addr`
 3. Now change directory into the notransomware directory.
 4. Run the following command to serve the files for download.
-`python3 -m httpserver`
+`python3 -m http.server`
 
 ## Update Lab Files
 1. Now it is time to swap to the WINDOWS-VICTIM-HOST. Press ctrl+shift+alt(command+ctrl+shift). 
