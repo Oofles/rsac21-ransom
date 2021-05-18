@@ -2,7 +2,7 @@
 
 ## Notes about the Environment
 Some quick things that will help you out as you progress through the lab.
-1. Once you access a system, then open another system. You will be able to access the last system in a window in the bottom right of the screen.
+1. Once you access a connection, then open another connection. You will be able to access the last system in a window in the bottom right of the screen.
 2. To access another device, press ctrl+shift+alt. (ctrl=command for mac people), and then use the drop down in the top of the side bar menu.
 3. In the side bar menu you will also find instructions for copy paste bewteen the outside world and your lab environment, this will come in handy shortly.
 
