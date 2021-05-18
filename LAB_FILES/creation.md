@@ -13,7 +13,7 @@ Some quick things that will help you out as you progress through the lab.
 
 ```
 cd rsac21-ransom
-git pull
+sudo git pull
 ```
 
 ## Download and open the source code. (Sample Golang Ransomware - Not Ironcat)
