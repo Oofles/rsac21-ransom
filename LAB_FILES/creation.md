@@ -86,4 +86,4 @@ if len(args) < 1 {
 
 If you done help your teammates. Generate discussion or ask good questions in chat. You will be called back for a short presentation before moving on to detection.
 
-[detection.md](On to Detection)
+[On to Detection](detection.md)
