@@ -72,6 +72,7 @@ Add an argument requirement!
 3. Enter a new line below this line, right above `var files []string`
 4. Above that varibale statement for files, make some space by pressing enter 3 times, then insert the follow code in that new line.
 ```
+args := os.Args[1:]
 if len(args) < 1 {
 		fmt.Printf("Ironcat is now a kitten herd!")
 		os.Exit(1)
