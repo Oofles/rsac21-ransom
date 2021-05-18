@@ -9,7 +9,7 @@
 `python3 -m http.server`
 
 ## Update Lab Files
-1. Now it is time to swap to the WINDOWS-VICTIM-HOST. Press ctrl+shift+alt(command+ctrl+shift). 
+1. Now it is time to swap to the WINDOWS-VICTIM-HOST. Press ctrl+shift+alt(command+ctrl+shift). Click the drop down in the top left of the side menu and select the WIN-VICTIM-HOST connection.
 2. Open a administrative command prompt by clicking the search icon (magnifying glass) in the bottom left.
 3. Type cmd and click on the command prompt desktop app icon when it appears.
 4. Change directories to the lab files on the desktop. `cd c:\Users\Administrator\Desktop\rsac21-ransom`
