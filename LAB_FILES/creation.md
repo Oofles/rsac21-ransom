@@ -1,4 +1,10 @@
 # Creation
+##Update Github
+1. Run the following commands to update the lab files.
+```
+cd rsac21-ransom
+git pull
+```
 
 ## Download and open the source code. (Sample Golang Ransomware - Not Ironcat)
 
