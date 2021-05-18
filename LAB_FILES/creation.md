@@ -46,31 +46,31 @@ sudo git pull
 8. Press ctrl+x to save, and enter to save as main.go.
 9. Ensure you are in the same directory as the main.go file. `cd notransomware`
 10. Build! `env GOOS=windows GOARCH=386 go build main.go`
-11. Rename this version for your first test. `cp main.exe test1.exe`
+11. Rename this version for your first test. `sudo mv main.exe test1.exe`
 
 ## Now let's get a little tricky by changing some of the words!
 1. Again open the source with `sudo nano main.go`
-2. Press ctrl+3 and then shift+3 to show line numbers.
-3. Press alt+r to open the replace option.
+2. Press **ctrl+3** and then **shift+3** to show line numbers.
+3. Press **ctrl+\** to open the replace option.
 4. Type "encrypt" and press enter.
 5. Then type "random" and press enter to replace the word encrypt with random.
 6. Press A to do it for all cases.
 7. Now cursor down to line 153 that should contain the function "rsa.randomOAEP".
 8. Change this to "rsa.EncryptOAEP" and nothing else on the line. It is case sensitive.
-9. Use ctrl+x to save.
-10. Again build running `env GOOS=windows GOARCH=386 go build main.go`
-11. Rename the executable. `mv main.exe test264.exe`
+9. Use ctrl+x, then y, and enter, to save.
+10. Again build running `sudo env GOOS=windows GOARCH=386 go build main.go` (Capitilization matters!)
+11. Rename the executable. `sudo mv main.exe test264.exe`
 12. Make a second version of this one for 32 bit systems by running `env GOOS=windows GOARCH=386 build main.go`
-13. Rename the executable. `mv main.exe test232.exe`
+13. Rename the executable. `sudo mv main.exe test232.exe`
 
 ### Now you are just being mean
 
 Add an argument requirement! 
 
-1. Open the main.go file again with `sdo nano main.go`
-2. Cursor down to the main function which should be around line 111 and look like "func main() {
-3. Enter a new line below this line, right above "var files []string"
-4. Insert the follow code in that new line.
+1. Open the main.go file again with `sudo nano main.go`
+2. Cursor down to the main function which should be around line 111 and look like `func main() {`
+3. Enter a new line below this line, right above `var files []string`
+4. Above that varibale statement for files, make some space by pressing enter 3 times, then insert the follow code in that new line.
 ```
 if len(args) < 1 {
 		fmt.Printf("Ironcat is now a kitten herd!")
