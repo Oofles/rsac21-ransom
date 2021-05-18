@@ -8,7 +8,8 @@ Some quick things that will help you out as you progress through the lab.
 
 
 ##Update Github
-1. Run the following commands to update the lab files.
+1. Now open the NIX-ATTACK-HOST-#  Connection to be greeted by a terminal.
+2. Run the following commands to update the lab files.
 
 ```
 cd rsac21-ransom
