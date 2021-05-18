@@ -24,7 +24,7 @@ sudo git pull
 
 2. Make a new directory to hold the files you will be working on.
 
-`mkdir notransomware`
+`sudo mkdir notransomware`
 
 3. Copy the test file from the go-crypt folder.
 
