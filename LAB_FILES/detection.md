@@ -9,10 +9,11 @@
 `python3 -m httpserver`
 
 ## Update Lab Files
-1. Open a administrative command prompt by clicking the search icon (magnifying glass) in the bottom left.
-2. Type cmd and click on the command prompt desktop app icon when it appears.
-3. Change directories to the lab files on the desktop. `cd c:\Users\Administrator\Desktop\rsac21-ransom`
-4. Update the files from the git repo.  `git pull`
+1. Now it is time to swap to the WINDOWS-VICTIM-HOST. Press ctrl+shift+alt(command+ctrl+shift). 
+2. Open a administrative command prompt by clicking the search icon (magnifying glass) in the bottom left.
+3. Type cmd and click on the command prompt desktop app icon when it appears.
+4. Change directories to the lab files on the desktop. `cd c:\Users\Administrator\Desktop\rsac21-ransom`
+5. Update the files from the git repo.  `git pull`
 
 ## Download the "evil" files.
 
