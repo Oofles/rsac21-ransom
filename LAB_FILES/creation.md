@@ -18,7 +18,8 @@ sudo git pull
 
 ## Download and open the source code. (Sample Golang Ransomware - Not Ironcat)
 
-1. Open Linux-Attack-Host in the guacamole console and run the following command:
+1. Move back to your home directory. `cd ~`
+2. Open Linux-Attack-Host in the guacamole console and run the following command:
 
 `sudo git clone https://github.com/target111/go-crypt.git`
 
