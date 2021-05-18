@@ -1,6 +1,15 @@
 # Creation
+
+## Notes about the Environment
+Some quick things that will help you out as you progress through the lab.
+1. Once you access a system, then open another system. You will be able to access the last system in a window in the bottom right of the screen.
+2. To access another device, press ctrl+shift+alt. (ctrl=command for mac people), and then use the drop down in the top of the side bar menu.
+3. In the side bar menu you will also find instructions for copy paste bewteen the outside world and your lab environment, this will come in handy shortly.
+
+
 ##Update Github
 1. Run the following commands to update the lab files.
+
 ```
 cd rsac21-ransom
 git pull
@@ -20,15 +29,9 @@ git pull
 
 `cp go-crypt/crypter/encrypt.go notransomware/main.go`
 
-3. Open *** with vscode
-`code ./sample-ransom-code`
-
 ## Modify code for evasion
 
-
-
-
-1. Open with `sudo nano` or if you want to follow along with your other favorite editor but nano is used for these instructions.
+1. Open with `sudo nano notransomware/main.go` or if you want to follow along with your other favorite editor but nano is used for these instructions.
 2. Press ctrl+3 then shift+3 to show line numbers.
 3. Delete line 4 for the library ending in "machineid"
 4. On line !!!35!!! beside the notes //modify this enter the following string.
@@ -38,8 +41,9 @@ git pull
 6. Delete line 164 ""id": {id},"
 7. Cursor down to line 189. Press end. Delte the characters "+ id" from the end of the string.
 8. Press ctrl+x to save, and enter to save as main.go.
-9. Build! `env GOOS=windows GOARCH=386 build main.go`
-10. Rename this version for your first test. `cp main.exe test1.exe`
+9. Ensure you are in the same directory as the main.go file. `cd notransomware`
+10. Build! `env GOOS=windows GOARCH=386 build main.go`
+11. Rename this version for your first test. `cp main.exe test1.exe`
 
 ## Now let's get a little tricky by changing some of the words!
 1. Again open the source with `sudo nano main.go`
