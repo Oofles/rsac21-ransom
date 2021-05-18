@@ -92,20 +92,23 @@ One more way you can quickly pull information together in a ransomware attack is
 
 1. In an administrative command prompt, enter powershell. `powershell`
 2. Get the time of the incident from the ransomnote. There are other places and times to look at such as the logs clearing, but for this instance use the note. `$target = (get-childitem -path c:\Users\Administrator\Desktop\<ransomnotefilename>).CreationTime`
-3. Now roll that back by 1 hour. `$starttime = $target.AddHours(-1)` to create a start time
-4. And use that as the target to find files created in some select locations including the already identified SysWow64 location.
+3. Now create an start and end time window. 
+```
+$starttime = $target.AddMinutes(-5)
+$endtime = $target.AddMinutes(5)`
+```
+5. And use that as the target window to find files created in some select locations including the already identified SysWow64 location.
 ```
 get-childitem c:\windows\ | ?{$_.CreationTime -gt $target} | Select Name
 get-childitem c:\windows\syswow64 | ?{$_.CreationTime -gt $target} | Select Name
 get-childitem c:\windows\system32 | ?{$_.CreationTime -gt $starttime -and $_CreationTime -lt $target} | Select Name
 ```
- 
+> You can do this with a small enough window with the 'recurse' option on the entire c:\Windows folder, but you will still need to sort through some noise.
+6. Now you should have identified quiet a few .bat files. Go inspect the to find out what is going on, and figure out how to shut down the Scorched Earth Protocol.
+
+**All of the activity from this exectuable will be revealed at the end of the lab, and uploaded to this github.**
 
 
  
-
-
-Analyze packet capture. 
-See any base 64?  What was that? 
 
 
