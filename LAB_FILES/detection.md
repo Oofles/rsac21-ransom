@@ -35,10 +35,10 @@
 1. Open firefox and browse to virus total.  www.virustotal.com
 2. Click the **choose a file** optiont to upload for analysis.
 3. Browse to C:\Users\Administrator\Desktop\rsac-ransom and select test1.exe.
-4. Wait for the analysis. It will look something like this, but may have changed with all of the concurent uploads of a similar file.
-> Remember this is was the file that you saved as is and compiled in the amd64 architecture. Having just 3 detections for what will effectively encrypt files in your homedrive and attempt to connect to a server, while dropping a key and ransom note is pretty scray in itself.
-5. Now Click the upload button in the top left beside the search bar and upload the second sample test2.exe
-> This was the sample you simply replaced all occurances of the word encrypt with another word. This now comes back with only 2 detections. Putting on show case that changing common words and text associated with malware inside binaries will trick a number of detections in iteslef. Not to mention this changes zero function of the binary while completely changing the hash.
+4. Wait for the analysis.
+> Remember this is was the file that you saved as is and compiled in the amd64 architecture. Having just ~6(may increase as more people upload) detections for what will effectively encrypt files in your homedrive and attempt to connect to a server, while dropping a key and ransom note is pretty scary in itself.
+5. Now Click the upload button in the top left beside the search bar and upload the second sample test264.exe.
+> This was the sample you simply replaced all occurances of the word encrypt with another word. This now comes back  detections. Putting on show case that changing common words and text associated with malware inside binaries will trick a number of detections in iteslef. Not to mention this changes zero function of the binary while completely changing the hash.
 6. Finally, upload the 32bit version of this sample. Same sample as before, but compliled for the more commonly execuable 32bit architecture.
 > By nature of the architecture you will see many more detections now, many of the static and behavioral analysis tools are tuned toward 32bit binaires and instructions.
 7. All that's great but now upload the final sample where you added the argument requirement for it to run. Test232-args.exe.
