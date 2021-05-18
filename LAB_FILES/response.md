@@ -27,20 +27,19 @@ The point here is to fast forward you to after the user clicked the wrong link, 
 11. Once it is complete stop the wireshark capture and stop the procmon capture.
 
 ## Now Respond As if you weren't the one who did it!
-1.
-3. Use the [Windows Fundamentals](windows_fundamentals.md) resource to look for various indicators of activity.
+
+1. Use the [Windows Fundamentals](windows_fundamentals.md) resource to look for various indicators of activity.
 
 ## Files, Files,Files
 Don't close the the cmd prompt.
 ctrl+c. 
 Use the history command to find the command line arguments used.
+```history```
 
 Get as much information from the ransomnote as possible>
 What is the size and file type. When was it created, and last modified or access and who owns it?
 `powershell get-file`
-Use this information to find other effected files on the system. For this lab just focus on users.
-This can be used as a detection across multiple devices to find te total impact of the incendent. Log multiple machines by time stampe and you can build the attackers path.
-Remote example.
+
 
 ## Orientate
 
@@ -48,7 +47,7 @@ Remote example.
 2. Some links don't work. You go to open windows explorer or search for an app and it the links fail.
 3. If you can't use windows+r or are not comfortable....the recycle bin is a good option to open up a file explorer.
 4. From here you can browse to C:\Windows\System32\cmd.exe and open the command line or other tools as you normally would.
-5. 
+
 ## Log analysis, All my friends...
 Event view shows all logs cleared.  So you can't get the command line activity from here.
 Before you do anyting else, let's check some logs.  Normally you would pull the logs with a forensic script, but in this lab environment just take a look.
