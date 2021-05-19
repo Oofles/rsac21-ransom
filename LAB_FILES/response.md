@@ -72,11 +72,12 @@ notepad pfirewall.log
 ## Analyze the packet capture. And track down that pesky activity.
 
 1. Save the packet capture to the c:\.
-2. Open the packet capture and type 'http' in the display filter.
-3. Notice the DNS request right before the HTTP request?
-4. Right click on one of the http packets going to 34.x.x.x and choose follow>http
-5. What do you see? What is the base64 info? In your devices browser go to cyberchef.io.
-6. You will find when using the base64 decode that this is actually the key being sent. This is not a realistic in the sense of it being a password you can use to decrypt the files. However, it is realistic in the value add that can come from capturing the initial conversations that can be gathered from live packet capture.
+2. Open the packet capture and type 'http or dns' in the display filter.
+3. Can you pick out the http POST sent during malware execution?
+4. Notice the DNS request right before the HTTP packets?
+5. Right click on one of the http packets going to 35.x.x.x and choose follow>http
+6. What do you see? What is the base64 info? In your devices browser go to cyberchef.io
+7. You will find when using the base64 decode that this is actually the key being sent. This is not a realistic in the sense of it being a password you can use to decrypt the files. However, it is realistic in the value add that can come from capturing the initial conversations through the use of full packet capture in your environment.
 
 Netstat to find activity.
 Now track that to the pid.
