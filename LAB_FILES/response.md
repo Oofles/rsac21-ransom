@@ -18,7 +18,8 @@
 15. Next to the file input, click Browse.
 16. Choose the c:\ and input the filename of "capture" and click save. 
 17. Now click start capture to capturing on the 'ethernet' interface.
-18. You are ready!
+18. Close firefox or browser application if you still have it open.
+19. You are ready!
 
 ## Launch!
 
