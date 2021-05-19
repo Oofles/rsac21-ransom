@@ -42,7 +42,7 @@ sudo git pull
 
 6. Delete line ~158 starting with `'id'` through ~161 ending with `}`.
 7. Delete line ~163 `"id": {id},`
-8. Cursor down to line ~189 beginning with `text := "`. Press end. Delte the characters `+ id` from the end of the string.
+8. Cursor down to line ~188 beginning with `text := "`. Press end. Delte the characters `+ id` from the end of the string.
 9. Press ctrl+x to save, and enter to save as main.go.
 10. Ensure you are in the same directory as the main.go file. `cd notransomware`
 11. Build! `env GOOS=windows GOARCH=amd64 go build main.go`
