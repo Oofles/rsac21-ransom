@@ -102,7 +102,7 @@ One more way you can quickly pull information together in a ransomware attack is
 3. Now create an start and end time window. 
 ```
 $starttime = $target.AddMinutes(-5)
-$endtime = $target.AddMinutes(5)`
+$endtime = $target.AddMinutes(5)
 ```
 5. And use that as the target window to find files created in some select locations including the already identified SysWow64 location.
 ```
