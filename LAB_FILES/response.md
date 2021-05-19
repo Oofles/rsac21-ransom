@@ -49,7 +49,7 @@ What is the size and file type. When was it created, and last modified or access
 ## Orientate
 
 1. Okay, there is note. Don't click it yet!
-2. Some links don't work. You go to open windows explorer or search for an app and it the links fail.
+2. Some links don't work. You may go to open windows explorer or search for an app and the links fail.
 3. If you can't use windows+r or are not comfortable....the recycle bin is a good option to open up a file explorer.
 4. From here you can browse to C:\Windows\System32\cmd.exe and open the command line or other tools as you normally would.
 
