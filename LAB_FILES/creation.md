@@ -69,7 +69,7 @@ Add an argument requirement!
 1. Open the main.go file again with `sudo nano main.go`
 2. Cursor down to the main function which should be around line 110 and look like `func main() {`
 3. Enter a new line below this line, right above `var files []string`
-4. Above that varibale statement for files, make some space by pressing enter 3 times, then insert the follow code in that new line.
+4. Above that variable statement for files, make some space by pressing enter 3 times, then insert the follow code in that new line.
 > You have to type the follow do not copy paste or it will mess up the lines.
 
 ```
@@ -80,8 +80,8 @@ if len(args) < 1 {
 	}
 ```
 5. Use ctrl+x, y, and enter to save the changes.
-6. Build just for 32bit this time. `env GOOS=windows GOARCH=386 build main.go`
-7. Rename the executable. `mv main.exe test332-arg.exe`
+6. Build just for 32bit this time. `sudo env GOOS=windows GOARCH=386 build main.go`
+7. Rename the executable. `sudo mv main.exe test332-arg.exe`
 
 If you done help your teammates. Generate discussion or ask good questions in chat. You will be called back for a short presentation before moving on to detection.
 
