@@ -34,7 +34,7 @@ sudo git pull
 ## Modify code for evasion
 
 1. Move into the notransomware directory. `cd notransomware`
-2. Open with `sudo nano notransomware/main.go` or if you want to follow along with your other favorite editor but nano is used for these instructions.
+2. Open with `sudo nano main.go` or if you want to follow along with your other favorite editor but nano is used for these instructions.
 3. Press **ctrl+3** then **shift+3** to show line numbers.
 4. Delete line 4 for the library ending in `machineid`
 5. On line !!!35!!! beside the notes //modify this enter the following string. (right click for windows or shift+command+v for mac)
