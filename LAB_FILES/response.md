@@ -79,9 +79,7 @@ notepad pfirewall.log
 6. What do you see? What is the base64 info? In your devices browser go to icyberchef.com 
 7. You will find when using the base64 decode that this is actually the key being sent. This is not a realistic in the sense of it being a password you can use to decrypt the files. However, it is realistic in the value add that can come from capturing the initial conversations through the use of full packet capture in your environment.
 
-Netstat to find activity.
-Now track that to the pid.
-Now track the pid to the process information and find the file reponsible. Look at the time stampe. Maybe other files were modified here too?
+
 
 ## Track Down the Scorched Earth Protocol Network Actions
 
