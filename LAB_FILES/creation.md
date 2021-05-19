@@ -59,7 +59,7 @@ sudo git pull
 9. Use ctrl+x, then y, and enter, to save.
 10. Again build running `sudo env GOOS=windows GOARCH=amd64 go build main.go` (Capitilization matters!)
 11. Rename the executable. `sudo mv main.exe test264.exe`
-12. Make a second version of this one for 32 bit systems by running `env GOOS=windows GOARCH=386 build main.go` (Pay attention to the architecture change this will matter for detections.)
+12. Make a second version of this one for 32 bit systems by running `sudo env GOOS=windows GOARCH=386 go build main.go` (Pay attention to the architecture change this will matter for detections.)
 13. Rename the executable. `sudo mv main.exe test232.exe`
 
 ### Now you are just being mean
