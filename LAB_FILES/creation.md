@@ -44,9 +44,8 @@ sudo git pull
 7. Delete line ~163 `"id": {id},`
 8. Cursor down to line ~188 beginning with `text := "`. Press end. Delte the characters `+ id` from the end of the string.
 9. Press ctrl+x to save, and enter to save as main.go.
-10. Ensure you are in the same directory as the main.go file. `cd notransomware`
-11. Build! `env GOOS=windows GOARCH=amd64 go build main.go`
-12. Rename this version for your first test. `sudo mv main.exe test1.exe`
+10. Build! `env GOOS=windows GOARCH=amd64 go build main.go`
+11. Rename this version for your first test. `sudo mv main.exe test1.exe`
 
 ## Now let's get a little tricky by changing some of the words!
 1. Again open the source with `sudo nano main.go`
