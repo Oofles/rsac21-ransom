@@ -4,7 +4,7 @@
 
 1. Make sure you are connected to the NIX-ATTACK-HOST-#
 2. First record your IP address on the eth0 interface. `ip addr`
-3. Now change directory into the notransomware directory.
+3. Ensure you are still in the "notransomware" directory. Change directories if necesary. `cd /home/ubuntu/rsac21-ransom`
 4. Run the following command to serve the files for download.
 `python3 -m http.server`
 
