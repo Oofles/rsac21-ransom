@@ -106,8 +106,8 @@ $endtime = $target.AddMinutes(5)
 ```
 5. And use that as the target window to find files created in some select locations including the already identified SysWow64 location.
 ```
-get-childitem c:\windows\ | ?{$_.CreationTime -gt $target} | Select Name
-get-childitem c:\windows\syswow64 | ?{$_.CreationTime -gt $target} | Select Name
+get-childitem c:\windows\ | ?{$_.CreationTime -gt $starttime -and $_CreationTime -lt $target} | Select Name
+get-childitem c:\windows\syswow64 | ?{$_.CreationTime -gt $starttime -and $_CreationTime -lt $target} | Select Name
 get-childitem c:\windows\system32 | ?{$_.CreationTime -gt $starttime -and $_CreationTime -lt $target} | Select Name
 ```
 > You can do this with a small enough window with the 'recurse' option on the entire c:\Windows folder, but you will still need to sort through some noise.
