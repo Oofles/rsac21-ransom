@@ -50,7 +50,7 @@ sudo git pull
 ## Now let's get a little tricky by changing some of the words!
 1. Again open the source with `sudo nano main.go`
 2. Press **ctrl+3** and then **shift+3** to show line numbers.
-3. Press **ctrl+\** to open the replace option.
+3. Press **ctrl+\\** to open the replace option.
 4. Type "encrypt" and press enter.
 5. Then type "random" and press enter to replace the word encrypt with random.
 6. Press A to do it for all cases.
