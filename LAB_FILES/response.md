@@ -38,7 +38,7 @@ The point here is to fast forward you to after the user clicked the wrong link, 
 ```doskey /history```
 > If you respond to an incident and happen to find the command prompt still open, this is a mistake on behalf of the adversary, take advantage of it.
 4. Get as much information from the ransomnote as possible.
-5. What is the size and file type. When was it created, and last modified or access and who owns it?
+5. What is the size and file type. When was it created, and last modified or access and who owns it? Take notes :).
 `dir theinvincibleironcat.txt`
 
 
