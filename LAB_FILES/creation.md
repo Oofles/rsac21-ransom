@@ -67,7 +67,7 @@ sudo git pull
 Add an argument requirement! 
 
 1. Open the main.go file again with `sudo nano main.go`
-2. Cursor down to the main function which should be around line 111 and look like `func main() {`
+2. Cursor down to the main function which should be around line 110 and look like `func main() {`
 3. Enter a new line below this line, right above `var files []string`
 4. Above that varibale statement for files, make some space by pressing enter 3 times, then insert the follow code in that new line.
 > You have to type the follow do not copy paste or it will mess up the lines.
