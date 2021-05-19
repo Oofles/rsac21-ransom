@@ -7,9 +7,14 @@
 4. Ensure that Automatic sample submission is turned off!
 5. Also, turn off Cloud-delevered protection.
 6. Close the windows defender settings, leaving real-time protection on.
-7. Open wireshark by typing wireshark in the bottom left search bar and click the wireshark app, and begin capturing on the 'ethernet' interface.
-8. Open an administrative command prompt and type "procmon" to open procmon, and accept the EULA.
-9. You are ready!
+7. Open wireshark by typing wireshark in the bottom left search bar and click the wireshark app.
+8. In the top menu choose Capture>Options.
+9. Now click the output tab.
+10. Next to the file input, click Browse.
+11. Choose the c:\ and input the filename of "investigation" and click save. 
+12. Now click start capture to capturing on the 'ethernet' interface.
+13. Open an administrative command prompt and type "procmon" to open procmon, and accept the EULA.
+14. You are ready!
 
 ## Launch!
 
