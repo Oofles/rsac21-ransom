@@ -1,4 +1,4 @@
-# rsac21-ransom
+# HANDS ON: Ransomware Response and Analysis
 Welcome! Follow along sequentially from top to bottom with the links below. 
 
 > Do not feel the need to rush. This github repo and the associated lab environments will be up through the end of the day.
