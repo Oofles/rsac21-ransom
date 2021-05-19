@@ -18,8 +18,8 @@
 ## Download the "evil" files.
 
 1. Do some pre-flight checks, you can access all the required programs by clicking the search bar in the bottom left and typing their respective names. When they appear in the start menu results, double click them.
-[] - Is a folder on the desktop called "rsac21-ransom" (If not, launch a command prompt and run `git clone `)
-[] - Is firefox installed? (If not, launch a command prompt and run `choco install firefox`)
+- [-] Is a folder on the desktop called "rsac21-ransom" (If not, launch a command prompt and run `git clone `)
+- [-] Is firefox installed? (If not, launch a command prompt and run `choco install firefox`)
 ```
 2. Open a command prompt by clicking the search icon in the bottom left and typing `cmd`. The 
 4. Run the following command with my new favorite living off the land binary for dowloading remote files. 
