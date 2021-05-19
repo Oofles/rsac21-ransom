@@ -44,7 +44,7 @@ sudo git pull
 7. Delete line ~163 `"id": {id},`
 8. Cursor down to line ~188 beginning with `text := "`. Press end. Delte the characters `+ id` from the end of the string.
 9. Press ctrl+x to save, and enter to save as main.go.
-10. Build! `sudo env GOOS=windows GOARCH=amd64 go build main.go`
+10. Build! `sudo env GOOS=windows GOARCH=amd64 go build main.go`(Capitilization matters!)
 11. Rename this version for your first test. `sudo mv main.exe test1.exe`
 
 ## Now let's get a little tricky by changing some of the words!
@@ -54,8 +54,8 @@ sudo git pull
 4. Type "encrypt" and press enter.
 5. Then type "random" and press enter to replace the word encrypt with random.
 6. Press A to do it for all cases.
-7. Now cursor down to line 153 that should contain the function "rsa.randomOAEP".
-8. Change this to "rsa.EncryptOAEP" and nothing else on the line. It is case sensitive.
+7. Now cursor down to line 153 that should contain the function `rsa.randomOAEP`
+8. Change this to `rsa.EncryptOAEP` and nothing else on the line. It is case sensitive.
 9. Use ctrl+x, then y, and enter, to save.
 10. Again build running `sudo env GOOS=windows GOARCH=amd64 go build main.go` (Capitilization matters!)
 11. Rename the executable. `sudo mv main.exe test264.exe`
