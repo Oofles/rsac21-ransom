@@ -97,7 +97,7 @@ notepad pfirewall.log
 ## What did they do!
 One more way you can quickly pull information together in a ransomware attack is to look at file time lines. Ransomware happens, you are called in and the user generally doesn't do too much. Not to mention you have tracked activity back to some specific folders. How do you find the rest?
 
-1. In an administrative command prompt, enter powershell. `powershell`
+1. If you do not already have a powershell prompt open, then open administrative command prompt, enter powershell. `powershell`  Otherwise, continue on ye bearer of the all powerfull shell.
 2. Get the time of the incident from the ransomnote. There are other places and times to look at such as the logs clearing, but for this instance use the note. `$target = (get-childitem -path c:\Users\Administrator\Desktop\<ransomnotefilename>).CreationTime`
 3. Now create an start and end time window. 
 ```
