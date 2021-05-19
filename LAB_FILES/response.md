@@ -86,7 +86,7 @@ notepad pfirewall.log
 ## Track Down the Scorched Earth Protocol Network Actions
 
 1. In the administrative command prompt(not powershell) run `netstat -anob 1 | findstr 80`
-2. Find the PID of the network activity going to 35. and run `tasklist /FI "PID EQ <instert pid>"
+2. Find the PID of the network activity going to 35. and run `tasklist /FI "PID EQ <instert pid>"`
 3. The results show a supicious process making that network connection. Swap to powershell `powershell`
 4. Get more information from that process  `get-process -id "<pid>" | select *`
 5. In the path you will see it's location inside C:\Windows\SysWOW64\ . That is one clue. Time to dig deeper.
