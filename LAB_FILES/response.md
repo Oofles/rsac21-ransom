@@ -7,13 +7,18 @@
 4. Ensure that Automatic sample submission is turned off!
 5. Also, turn off Cloud-delevered protection.
 6. Close the windows defender settings, leaving real-time protection on.
-7. Open wireshark by typing wireshark in the bottom left search bar and click the wireshark app.
-8. In the top menu choose Capture>Options.
-9. Now click the output tab.
-10. Next to the file input, click Browse.
-11. Choose the c:\ and input the filename of "capture" and click save. 
-12. Now click start capture to capturing on the 'ethernet' interface.
-13. You are ready!
+7. Click the search icon (magnifying glass) in the bottom left and type Windows Defender Firewall & open Windows Defender Firewall with Advanced Security.
+8. In the middle of the window click the link for Windows Defender Firewwall Properties.
+9. For each of the three domains, in the Logging section click customize. 
+10. In the Customize Logging Settings window Select the drop downs for Log dropped packets and Log successful connections and select yes, and click okay.
+11. Make sure to do this for each domain and exit the Windows Defender Firewall with Advanced Security application.
+12. Open wireshark by typing wireshark in the bottom left search bar and click the wireshark app.
+13. In the top menu choose Capture>Options.
+14. Now click the output tab.
+15. Next to the file input, click Browse.
+16. Choose the c:\ and input the filename of "capture" and click save. 
+17. Now click start capture to capturing on the 'ethernet' interface.
+18. You are ready!
 
 ## Launch!
 
