@@ -11,7 +11,7 @@
 8. In the top menu choose Capture>Options.
 9. Now click the output tab.
 10. Next to the file input, click Browse.
-11. Choose the c:\ and input the filename of "investigation" and click save. 
+11. Choose the c:\ and input the filename of "capture" and click save. 
 12. Now click start capture to capturing on the 'ethernet' interface.
 13. You are ready!
 
