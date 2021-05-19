@@ -38,9 +38,10 @@ The point here is to fast forward you to after the user clicked the wrong link, 
 Don't close the the cmd prompt.
 ctrl+c. 
 Use the history command to find the command line arguments used.
-```history```
+```doskey /history```
+> If you respond to an incident and happen to find the command prompt still open, this is a mistake on behalf of the adversary, take advantage of it.
 
-Get as much information from the ransomnote as possible>
+Get as much information from the ransomnote as possible.
 What is the size and file type. When was it created, and last modified or access and who owns it?
 `powershell get-file`
 
