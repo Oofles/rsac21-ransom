@@ -28,7 +28,7 @@ The point here is to fast forward you to after the user clicked the wrong link, 
 7. Run the malware! `iai-rsac21.exe`
 9. Gotcha! No commandline arguments, no execution. Try again. `iai-rsac21.exe encrypt <password>`
 10. Watch the exectution. 
-11. Once it is complete stop the wireshark capture and stop the procmon capture.
+11. Once it is complete stop the wireshark capture.
 
 ## Now Respond As if you weren't the one who did it!
 
