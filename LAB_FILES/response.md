@@ -33,17 +33,13 @@ The point here is to fast forward you to after the user clicked the wrong link, 
 ## Now Respond As if you weren't the one who did it!
 
 1. Use the [Windows Fundamentals](windows_fundamentals.md) resource to look for various indicators of activity.
-
-## Files, Files,Files
-Don't close the the cmd prompt.
-ctrl+c. 
-Use the history command to find the command line arguments used.
+2. Don't close the the cmd prompt. 
+3. Use the history command to find the command line arguments used.
 ```doskey /history```
 > If you respond to an incident and happen to find the command prompt still open, this is a mistake on behalf of the adversary, take advantage of it.
-
-Get as much information from the ransomnote as possible.
-What is the size and file type. When was it created, and last modified or access and who owns it?
-`powershell get-file`
+4. Get as much information from the ransomnote as possible.
+5. What is the size and file type. When was it created, and last modified or access and who owns it?
+`dir theinvincibleironcat.txt`
 
 
 ## Orientate
@@ -57,7 +53,7 @@ What is the size and file type. When was it created, and last modified or access
 Event view shows all logs cleared.  So you can't get the command line activity from here.
 Before you do anyting else, let's check some logs.  Normally you would pull the logs with a forensic script, but in this lab environment just take a look.
 1. Launch event viewer. `eventvwr`
-2. Suprise they are all cleared. But go check out the following logs. Microsoft>Windows>TerminalServices-*  As you look around you will see information logged from your still active RDP session. If you disconnected this is where a disconnection event would occur revealing the remote IP.
+2. Suprise they are all cleared. But go check out the following logs. **Application and Services Logs>Microsoft>Windows>TerminalServices-LocalSessionManager**  As you look around you will see information logged from your still active RDP session. If you disconnected this is where a disconnection event would occur revealing the remote IP.
 3. Exit event viewer.
 4. In the administrative command prompt make a investigation directory and move the firewall logs from system32 into that directory.
 ```
