@@ -22,7 +22,7 @@ The point here is to fast forward you to after the user clicked the wrong link, 
 1. Open the 'rsac-rasom' folder ond the windows desktop and browse into the "LAB_FILES" folder.
 2. Inside this folder is a zip folder called "iai-rsac21", right click the extract the contents.
 3. Open the extracted folder. Right click and copy the iai-rsac21.exe file.
-4. Paste this file in the c:\ root directory. So that you see c:\
+4. Paste this file in the c:\ directory. 
 5. Open an administrative command prompt (type cmd in the search bar and click the command prompt app)
 6. Change directory the C:\ `cd c:\`
 7. Run the malware! `iai-rsac21.exe`
