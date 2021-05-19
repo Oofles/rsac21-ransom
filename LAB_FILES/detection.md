@@ -42,7 +42,7 @@
 > This was the sample you simply replaced all occurances of the word encrypt with another word. This now comes back  detections. Putting on show case that changing common words and text associated with malware inside binaries will trick a number of detections in iteslef. Not to mention this changes zero function of the binary while completely changing the hash.
 6. Finally, upload the 32bit version of this sample. Same sample as before, but compliled for the more commonly execuable 32bit architecture.
 > By nature of the architecture you will see many more detections now, many of the static and behavioral analysis tools are tuned toward 32bit binaires and instructions.
-7. All that's great but now upload the final sample where you added the argument requirement for it to run. Test232-args.exe.
+7. All that's great but now upload the final sample where you added the argument requirement for it to run.
 > You will notice nearly all the detections go away now, even in the 32bit architecture. All of that work spent on creating different types of anti analysis techiniques and simply adding an argument requirement will fool nearly every auto analysis capability out there, making the detection solely reliant on strings.
 
 Let's return to talk about what just happened and get ready to move on to live reponse.
