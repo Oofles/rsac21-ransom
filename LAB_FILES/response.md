@@ -79,6 +79,7 @@ notepad pfirewall.log
 5. Right click on one of the http packets going to 35.x.x.x and choose follow>http
 6. What do you see? What is the base64 info? In your devices browser go to icyberchef.com 
 7. You will find when using the base64 decode that this is actually the key being sent. This is not a realistic in the sense of it being a password you can use to decrypt the files. However, it is realistic in the value add that can come from capturing the initial conversations through the use of full packet capture in your environment.
+8. Close Wireshark.
 
 
 
