@@ -7,7 +7,7 @@ Some quick things that will help you out as you progress through the lab.
 3. In the side bar menu you will also find instructions for copy paste bewteen the outside world and your lab environment, this will come in handy shortly.
 
 
-##Update Github
+## Update Github
 1. Now open the NIX-ATTACK-HOST-#  Connection to be greeted by a terminal.
 2. Run the following commands to update the lab files.
 
