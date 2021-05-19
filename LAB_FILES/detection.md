@@ -31,7 +31,7 @@
     4. test332-arg.exe
 5. This is your first detection example...no alerts from windows defender.
 
-## What does virust total have to say about all this?
+## What does virus total have to say about all this?
 
 1. Open firefox and browse to virus total.  www.virustotal.com
 2. Click the **choose a file** optiont to upload for analysis.
