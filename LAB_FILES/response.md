@@ -69,6 +69,7 @@ xcopy c:\Windows\System32\LogFiles\Firewall\pfirewall.log .
 notepad pfirewall.log
 ```
 5. Inspect the windows firewall log. Notice anything about this log? It isn't cleared, and it wasn't encrypted. This is generally the case because actors do not want to encrypt system32 and break the machine. We will regroup with a demonstration of how usefull this traffic can be.
+6. Close Event Viewer.
 
 ## Analyze the packet capture. And track down that pesky activity.
 
@@ -90,7 +91,7 @@ notepad pfirewall.log
 3. The results show a supicious process making that network connection. Swap to powershell `powershell`
 4. Get more information from that process  `get-process -id "<pid>" | select *`
 5. In the path you will see it's location inside C:\Windows\SysWOW64\ . That is one clue. Time to dig deeper.
-6. Use this command to find the command line used to launch the process. `get-ciminstance Win32_Process |?{$_.ProcessID -eq <pid>}|select *` In the output find the command line output. You will see it being ran with 3 arguments, likley changing the behavior of the executable again!.
+6. Use this command to find the command line used to launch the process. `get-ciminstance Win32_Process |?{$_.ProcessID -eq <pid>}|select *` In the output find the command line output. You will see it being ran with 3 arguments, likely changing the behavior of the executable again!.
 7. Now you know for sure that files have been planted from the original execution. 
 
 ## What did they do!
