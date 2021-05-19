@@ -13,12 +13,11 @@
 10. Next to the file input, click Browse.
 11. Choose the c:\ and input the filename of "investigation" and click save. 
 12. Now click start capture to capturing on the 'ethernet' interface.
-13. Open an administrative command prompt and type "procmon" to open procmon, and accept the EULA.
-14. You are ready!
+13. You are ready!
 
 ## Launch!
 
-The point here is to fast forward you to after the user clicked the wrong link, and then enaabled macros, and then thought it was totally normal when the doc was nonsense and office errored out and closed,...AND didn't tell you they used their admin account to local login everyday.  
+The point here is to fast forward you to after the user clicked the wrong link, and then enabled macros, and then thought it was totally normal when the doc was nonsense and office errored out and closed,...AND didn't tell you they used their admin account to local login everyday.  
 
 1. Open the 'rsac-rasom' folder ond the windows desktop and browse into the "LAB_FILES" folder.
 2. Inside this folder is a zip folder called "iai-rsac21", right click the extract the contents.
